@@ -1,0 +1,8 @@
+* Id: 0001
+* Destino: taller.hellodbus
+* Ruta: /taller/greeter
+* Interfaz: taller.Dbus.Greeter
+* Metodo: printHello
+* Parametros:
+    * Hola!
+

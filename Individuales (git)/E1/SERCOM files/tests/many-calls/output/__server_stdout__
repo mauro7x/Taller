@@ -1,0 +1,176 @@
+* Id: 0001
+* Destino: taller.tp1
+* Ruta: /taller-1/server
+* Interfaz: taller.tp1.manycalls
+* Metodo: foo
+* Parametros:
+    * 0
+
+* Id: 0002
+* Destino: taller.tp1
+* Ruta: /taller-1/server
+* Interfaz: taller.tp1.manycalls
+* Metodo: foo
+* Parametros:
+    * 1
+
+* Id: 0003
+* Destino: taller.tp1
+* Ruta: /taller-1/server
+* Interfaz: taller.tp1.manycalls
+* Metodo: foo
+* Parametros:
+    * 2
+
+* Id: 0004
+* Destino: taller.tp1
+* Ruta: /taller-1/server
+* Interfaz: taller.tp1.manycalls
+* Metodo: foo
+* Parametros:
+    * 3
+
+* Id: 0005
+* Destino: taller.tp1
+* Ruta: /taller-1/server
+* Interfaz: taller.tp1.manycalls
+* Metodo: foo
+* Parametros:
+    * 4
+
+* Id: 0006
+* Destino: taller.tp1
+* Ruta: /taller-1/server
+* Interfaz: taller.tp1.manycalls
+* Metodo: foo
+* Parametros:
+    * 5
+
+* Id: 0007
+* Destino: taller.tp1
+* Ruta: /taller-1/server
+* Interfaz: taller.tp1.manycalls
+* Metodo: foo
+* Parametros:
+    * 6
+
+* Id: 0008
+* Destino: taller.tp1
+* Ruta: /taller-1/server
+* Interfaz: taller.tp1.manycalls
+* Metodo: foo
+* Parametros:
+    * 7
+
+* Id: 0009
+* Destino: taller.tp1
+* Ruta: /taller-1/server
+* Interfaz: taller.tp1.manycalls
+* Metodo: foo
+* Parametros:
+    * 8
+
+* Id: 000a
+* Destino: taller.tp1
+* Ruta: /taller-1/server
+* Interfaz: taller.tp1.manycalls
+* Metodo: foo
+* Parametros:
+    * 9
+
+* Id: 000b
+* Destino: taller.tp1
+* Ruta: /taller-1/server
+* Interfaz: taller.tp1.manycalls.bar
+* Metodo: barMethod
+* Parametros:
+    * param1
+
+* Id: 000c
+* Destino: taller.tp1
+* Ruta: /taller-1/server
+* Interfaz: taller.tp1.manycalls.bar
+* Metodo: barMethod
+* Parametros:
+    * param2
+
+* Id: 000d
+* Destino: taller.tp1
+* Ruta: /taller-1/server
+* Interfaz: taller.tp1.manycalls
+* Metodo: foo
+* Parametros:
+    * 0
+
+* Id: 000e
+* Destino: taller.tp1
+* Ruta: /taller-1/server
+* Interfaz: taller.tp1.manycalls
+* Metodo: foo
+* Parametros:
+    * 1
+
+* Id: 000f
+* Destino: taller.tp1
+* Ruta: /taller-1/server
+* Interfaz: taller.tp1.manycalls
+* Metodo: foo
+* Parametros:
+    * 2
+
+* Id: 0010
+* Destino: taller.tp1
+* Ruta: /taller-1/server
+* Interfaz: taller.tp1.manycalls
+* Metodo: foo
+* Parametros:
+    * 3
+
+* Id: 0011
+* Destino: taller.tp1
+* Ruta: /taller-1/server
+* Interfaz: taller.tp1.manycalls
+* Metodo: foo
+* Parametros:
+    * 4
+
+* Id: 0012
+* Destino: taller.tp1
+* Ruta: /taller-1/server
+* Interfaz: taller.tp1.manycalls
+* Metodo: foo
+* Parametros:
+    * 5
+
+* Id: 0013
+* Destino: taller.tp1
+* Ruta: /taller-1/server
+* Interfaz: taller.tp1.manycalls
+* Metodo: foo
+* Parametros:
+    * 6
+
+* Id: 0014
+* Destino: taller.tp1
+* Ruta: /taller-1/server
+* Interfaz: taller.tp1.manycalls
+* Metodo: foo
+* Parametros:
+    * 7
+
+* Id: 0015
+* Destino: taller.tp1
+* Ruta: /taller-1/server
+* Interfaz: taller.tp1.manycalls
+* Metodo: foo
+* Parametros:
+    * 8
+
+* Id: 0016
+* Destino: taller.tp1
+* Ruta: /taller-1/server
+* Interfaz: taller.tp1.manycalls
+* Metodo: foo
+* Parametros:
+    * 9
+

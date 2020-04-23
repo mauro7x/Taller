@@ -1,0 +1,97 @@
+* Id: 0001
+* Destino: taller.dbus.params
+* Ruta: /
+* Interfaz: taller.Dbus.ParamTest
+* Metodo: some_function_with_many_optional_params
+* Parametros:
+    * a
+
+* Id: 0002
+* Destino: taller.dbus.params
+* Ruta: /
+* Interfaz: taller.Dbus.ParamTest
+* Metodo: some_function_with_many_optional_params
+* Parametros:
+    * a
+    *  b
+    *  c
+    *  d
+
+* Id: 0003
+* Destino: taller.dbus.params
+* Ruta: /
+* Interfaz: taller.Dbus.ParamTest
+* Metodo: some_function_with_many_optional_params
+* Parametros:
+    * a
+    *  a
+    *  a
+    *  a
+    *  b
+    *  b
+    *  b
+    *  b
+    *  c
+    *  c
+    *  c
+    *  c
+
+* Id: 0004
+* Destino: taller.dbus.params
+* Ruta: /
+* Interfaz: taller.Dbus.ParamTest
+* Metodo: some_function_with_many_optional_params
+
+* Id: 0005
+* Destino: taller.dbus.params
+* Ruta: /
+* Interfaz: taller.Dbus.ParamTest
+* Metodo: some_function_with_many_optional_params
+* Parametros:
+    * some_param_with_a_long_long_name___so_long_that_it_should_be_illegal
+
+* Id: 0006
+* Destino: taller.dbus.params
+* Ruta: /
+* Interfaz: taller.Dbus.ParamTest
+* Metodo: some_function_with_many_optional_params
+* Parametros:
+    * 0
+    * 1
+    * 2
+    * 3
+    * 4
+    * 5
+    * 6
+    * 7
+    * 8
+    * 9
+    * 10
+    * 11
+    * 12
+    * 13
+    * 14
+    * 15
+    * 16
+    * 17
+    * 18
+    * 19
+    * 20
+    * 21
+    * 22
+    * 23
+    * 24
+    * 25
+    * 26
+    * 27
+    * 28
+    * 29
+    * 30
+    * 31
+
+* Id: 0007
+* Destino: taller.dbus.params
+* Ruta: /
+* Interfaz: taller.Dbus.ParamTest
+* Metodo: some_function_with_many_optional_params
+
