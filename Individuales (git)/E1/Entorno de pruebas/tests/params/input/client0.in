@@ -1,0 +1,7 @@
+taller.dbus.params / taller.Dbus.ParamTest some_function_with_many_optional_params(a)
+taller.dbus.params / taller.Dbus.ParamTest some_function_with_many_optional_params(a, b, c, d)
+taller.dbus.params / taller.Dbus.ParamTest some_function_with_many_optional_params(a, a, a, a, b, b, b, b, c, c, c, c)
+taller.dbus.params / taller.Dbus.ParamTest some_function_with_many_optional_params()
+taller.dbus.params / taller.Dbus.ParamTest some_function_with_many_optional_params(some_param_with_a_long_long_name___so_long_that_it_should_be_illegal)
+taller.dbus.params / taller.Dbus.ParamTest some_function_with_many_optional_params(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31)
+taller.dbus.params / taller.Dbus.ParamTest some_function_with_many_optional_params()

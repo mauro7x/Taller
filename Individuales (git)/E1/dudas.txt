@@ -1,7 +1,0 @@
-que es un socket
-
-que es el servicio D bus
-es un mecanismo de comunicacion entre procesos (ipc)
-https://es.wikipedia.org/wiki/D-Bus
-
-
