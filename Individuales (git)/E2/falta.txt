@@ -1,0 +1,7 @@
+Falta:
+
+- Refactorizar, ver responsabilidades.
+- Ver lectura de a más bytes.
+- AGREGAR CONSTS DONDE SE PUEDA.
+- ASEGURARME DE PASAR POR REFERENCIA.
+
