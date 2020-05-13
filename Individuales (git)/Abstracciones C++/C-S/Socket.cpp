@@ -1,8 +1,6 @@
 #include "Socket.h"
 
 //-----------------------------------------------------------------------------
-// #define _POSIX_C_SOURCE 200112L ?
-
 #include <string>
 
 #include <sys/types.h>
@@ -135,6 +133,7 @@ void Socket::_tryToConnectTo(addrinfo* addresses) {
 
 void Socket::_closeFdIfValid() {
     if (fd_valid) {
+        fd_valid = false;
         close(fd);
     }
 }

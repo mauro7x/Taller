@@ -1,8 +1,6 @@
 #include "Socket.h"
 
 //-----------------------------------------------------------------------------
-// #define _POSIX_C_SOURCE 200112L ?
-
 #include <string>
 
 #include <sys/types.h>
@@ -135,6 +133,7 @@ void Socket::_tryToConnectTo(addrinfo* addresses) {
 
 void Socket::_closeFdIfValid() {
     if (fd_valid) {
+        fd_valid = false;
         close(fd);
     }
 }
@@ -197,10 +196,81 @@ int Socket::accept() {
 }
 
 
-// int Socket::send(const std::string& source, const size_t& len) {}
+ssize_t Socket::send(const char* source, const ssize_t& len) {
+    ssize_t total_sent = 0;
+    ssize_t last_sent = 0;
+
+    while (total_sent < len) {
+        last_sent = ::send(fd, &source[total_sent], len - total_sent,
+                           MSG_NOSIGNAL);
+
+        if (last_sent == -1) {
+            throw Exception(SENT_SKT_ERROR, "Error in function: "
+                            "Socket::send()");
+        } else if (last_sent == 0) {
+            return 0;
+        } else {
+            total_sent += last_sent;
+        }
+    }
+
+    return total_sent;
+}
 
 
-// int Socket::recv(const std::string& buffer, const size_t& len) {}
+/** SUPER EN ALPHA*/
+ssize_t Socket::operator<<(std::string& msg) {
+    try {
+        ssize_t sent;
+        sent = send(msg.c_str(), msg.size()+1); //enviamos \0
+        return sent;
+    } catch(const Exception& e) {
+        throw e;
+    }
+}
+
+
+/** SUPER EN ALPHA*/
+ssize_t Socket::operator>>(std::string& msg) {
+    try {
+        msg.clear();
+        char received_char;
+        ssize_t received = 0;
+
+        received += recv(&received_char, 1);
+        while (received_char != '\0') {
+            msg += received_char;
+            received += recv(&received_char, 1);
+        }
+        msg.shrink_to_fit();
+        return received;
+
+    } catch(const Exception& e) {
+        throw e;
+    }
+}
+
+
+ssize_t Socket::recv(char* buffer, const ssize_t& len) {
+    int total_received = 0;
+    int last_received = 0;
+    
+    while (total_received < len) {
+        last_received = ::recv(fd, &buffer[total_received],
+                               len - total_received, 0);
+
+        if (last_received == -1) {
+            throw Exception(RECV_SKT_ERROR, "Error in function: "
+                            "Socket::recv()");
+        } else if (last_received == 0) {
+            return 0;
+        } else {
+            total_received += last_received;
+        }
+    }
+
+    return total_received;
+}
 
 
 void Socket::shutdown(const int& channel) {

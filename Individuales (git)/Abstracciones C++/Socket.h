@@ -185,7 +185,9 @@ class Socket {
          * 
          * En caso de error se lanza una excepción.
         */
-        // int send(const char* source, const size_t& len);
+        ssize_t send(const char* source, const ssize_t& len);
+
+        ssize_t operator<<(std::string& msg);
 
 
         /** 
@@ -196,8 +198,9 @@ class Socket {
          * 
          * En caso de error se lanza una excepción.
         */
-        // int recv(const char* buffer, const size_t& len);
+        ssize_t recv(char* buffer, const ssize_t& len);
 
+        ssize_t operator>>(std::string& msg);
 
         /** 
          * Descripcion: cierra un canal del socket.

@@ -13,7 +13,9 @@
 #define LISTEN_SKT_ERROR 5
 #define ACCEPT_SKT_ERROR 6
 #define CONNECT_SKT_ERROR 7
-#define SHUTDOWN_SKT_ERROR 8
+#define SENT_SKT_ERROR 8
+#define RECV_SKT_ERROR 9
+#define SHUTDOWN_SKT_ERROR 10
 
 //-----------------------------------------------------------------------------
 

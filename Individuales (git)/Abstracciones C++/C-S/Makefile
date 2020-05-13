@@ -7,18 +7,18 @@
 ################
 
 # Extensión de los archivos a compilar (c para C, cpp o cc o cxx para C++).
-extension = c
+extension = cpp
 
 # Archivos con el código fuente que componen el ejecutable. Si no se especifica,
 # toma todos los archivos con la extensión mencionada. Para especificar hay que
 # descomentar la línea (quitarle el '#' del principio).
 # NOTA: No poner cabeceras (.h).
-#fuentes_client = entrada.cpp
-#fuentes_server = entrada.cpp
-#fuentes_common = entrada.cpp
+fuentes_client = main_client.cpp
+fuentes_server = main_server.cpp
+fuentes_common = Socket.cpp Exception.cpp
 
 # Si usa funciones de math.h, descomentar (quitar el '#' a) la siguiente línea.
-math = si
+#math = si
 
 # Si usa threads, descomentar (quitar el '#' a) la siguiente línea.
 threads = si
