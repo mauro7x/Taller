@@ -26,7 +26,7 @@ int main(int argc, char* argv[]) {
         skt.shutdown();
         std::cout << "Server has been shutdown.\n";
 
-    } catch(const Exception& e) {
+    } catch(Exception& e) {
         std::cerr << e.what() << '\n';
         return e.getErrorCode();
     }
