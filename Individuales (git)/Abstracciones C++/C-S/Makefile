@@ -14,7 +14,7 @@ extension = cpp
 # descomentar la línea (quitarle el '#' del principio).
 # NOTA: No poner cabeceras (.h).
 fuentes_client = main_client.cpp
-fuentes_server = main_server.cpp
+fuentes_server = main_server.cpp Thread.cpp
 fuentes_common = Socket.cpp Exception.cpp
 
 # Si usa funciones de math.h, descomentar (quitar el '#' a) la siguiente línea.

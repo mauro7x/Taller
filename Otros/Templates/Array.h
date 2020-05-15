@@ -5,36 +5,21 @@
 #include <iostream>
 //-----------------------------------------------------------------------------
 
-template <class T, int size=64> class Array {
+
+class Array {
     private:
-        T data[size];
+        int data[64];
 
     public:
-        Array() {}
-        ~Array() {}
+        Array();
+        ~Array();
+        void set(int p, int v);
+        int get(int p);
 
-        void set(int p, T v) {
-            data[p] = v;
-        }
-
-        T get(int p) {
-            return data[p];
-        }
-
-        void saludar() {
-            //std::cout << "Saludar(). t = " << t << "\n";
-            std::cout << "Saludar().\n";
-        }
-};
-
-
-template<>
-class Array<bool> {
-    public:
-        void saludar() {
-            //std::cout << "Saludar(). t = " << t << "\n";
-            std::cout << "Soy de booleanos jeje.\n";
-        }
+        template <class X>
+        void saludar(X x) {
+            std::cout << "Generico: " << x << "\n";
+        }  
 };
 
 //-----------------------------------------------------------------------------

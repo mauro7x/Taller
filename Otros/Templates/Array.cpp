@@ -1,7 +1,5 @@
 #include "Array.h"
 
-#include <iostream>
-
 Array::Array() {}
 
 Array::~Array() {}
@@ -12,4 +10,9 @@ void Array::set(int p, int v) {
 
 int Array::get(int p) {
     return data[p];
+}
+
+template<>
+void Array::saludar<char>(char c) {
+    std::cout << "Para chars: " << c << "\n";
 }

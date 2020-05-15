@@ -230,27 +230,6 @@ ssize_t Socket::operator<<(std::string& msg) {
 }
 
 
-/** SUPER EN ALPHA*/
-ssize_t Socket::operator>>(std::string& msg) {
-    try {
-        msg.clear();
-        char received_char;
-        ssize_t received = 0;
-
-        received += recv(&received_char, 1);
-        while (received_char != '\0') {
-            msg += received_char;
-            received += recv(&received_char, 1);
-        }
-        msg.shrink_to_fit();
-        return received;
-
-    } catch(const Exception& e) {
-        throw e;
-    }
-}
-
-
 ssize_t Socket::recv(char* buffer, const ssize_t& len) {
     int total_received = 0;
     int last_received = 0;
@@ -270,6 +249,27 @@ ssize_t Socket::recv(char* buffer, const ssize_t& len) {
     }
 
     return total_received;
+}
+
+
+/** SUPER EN ALPHA*/
+ssize_t Socket::operator>>(std::string& msg) {
+    try {
+        msg.clear();
+        char received_char;
+        ssize_t received = 0;
+
+        received += recv(&received_char, 1);
+        while (received_char != '\0') {
+            msg += received_char;
+            received += recv(&received_char, 1);
+        }
+        msg.shrink_to_fit();
+        return received;
+
+    } catch(const Exception& e) {
+        throw e;
+    }
 }
 
 

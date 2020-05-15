@@ -187,6 +187,13 @@ class Socket {
         */
         ssize_t send(const char* source, const ssize_t& len);
 
+
+        /**
+         * Descripción: sobrecarga de operador << para distintos
+         * tipos de datos a enviar.
+         * 
+         * COMPLETAR DOCUMENTACIÓN
+        */
         ssize_t operator<<(std::string& msg);
 
 
@@ -200,7 +207,15 @@ class Socket {
         */
         ssize_t recv(char* buffer, const ssize_t& len);
 
+
+        /**
+         * Descripción: sobrecarga de operador >> para distintos
+         * tipos de datos a recibir.
+         * 
+         * COMPLETAR DOCUMENTACIÓN
+        */
         ssize_t operator>>(std::string& msg);
+
 
         /** 
          * Descripcion: cierra un canal del socket.
