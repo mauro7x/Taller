@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Tutorial/24_calculating_frame_rate/24_calculating_frame_rate.cpp
+SDL2/SDL.h
+-
+SDL2/SDL_image.h
+-
+SDL2/SDL_ttf.h
+-
+stdio.h
+-
+sstream
+-
+string
+-
+
