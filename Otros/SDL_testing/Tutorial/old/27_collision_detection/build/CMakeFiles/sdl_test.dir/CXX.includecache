@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Tutorial/old/27_collision_detection/27_collision_detection.cpp
+SDL2/SDL.h
+-
+SDL2/SDL_image.h
+-
+stdio.h
+-
+string
+-
+

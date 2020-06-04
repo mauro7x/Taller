@@ -1,0 +1,122 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/Entities.h
+Entity.h
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/Entity.h
+Foo.h
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/Foo.h
+ParticularEntity.h
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/ParticularEntity.h
+EntitiesContainer.h
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/EntitiesContainer.h
+
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/EntitiesContainer.cpp
+EntitiesContainer.h
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/EntitiesContainer.h
+
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/EntitiesContainer.h
+vector
+-
+Entity.h
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/Entity.h
+SDLException.h
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/SDLException.h
+
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/Entity.cpp
+Entity.h
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/Entity.h
+
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/Entity.h
+SDL2/SDL.h
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/SDL2/SDL.h
+SDL2/SDL_image.h
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/SDL2/SDL_image.h
+
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/Exception.cpp
+Exception.h
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/Exception.h
+
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/Exception.h
+exception
+-
+string
+-
+
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/Foo.cpp
+Foo.h
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/Foo.h
+iostream
+-
+
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/Foo.h
+Entity.h
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/Entity.h
+Texture.h
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/Texture.h
+config.h
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/config.h
+
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/ParticularEntity.cpp
+ParticularEntity.h
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/ParticularEntity.h
+
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/ParticularEntity.h
+Entity.h
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/Entity.h
+
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/SDLException.h
+string
+-
+Exception.h
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/Exception.h
+
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/Texture.cpp
+Texture.h
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/Texture.h
+
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/Texture.h
+SDL2/SDL.h
+-
+SDL2/SDL_image.h
+-
+string
+-
+SDLException.h
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/SDLException.h
+
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/View.cpp
+View.h
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/View.h
+
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/View.h
+SDL2/SDL.h
+-
+SDL2/SDL_image.h
+-
+Entities.h
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/Entities.h
+SDLException.h
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/SDLException.h
+config.h
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/config.h
+
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/config.h
+SDL2/SDL.h
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/SDL2/SDL.h
+
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/main.cpp
+iostream
+-
+Exception.h
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/Exception.h
+SDLException.h
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/SDLException.h
+View.h
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Abstracciones/View.h
+

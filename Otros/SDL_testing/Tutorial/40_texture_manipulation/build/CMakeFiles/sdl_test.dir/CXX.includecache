@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Tutorial/40_texture_manipulation/40_texture_manipulation.cpp
+SDL2/SDL.h
+-
+SDL2/SDL_image.h
+-
+stdio.h
+-
+string
+-
+

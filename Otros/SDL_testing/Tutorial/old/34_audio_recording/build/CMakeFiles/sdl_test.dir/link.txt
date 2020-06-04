@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -Wall -Werror -pedantic -pedantic-errors -O3 -ggdb -DDEBUG -fno-inline  -rdynamic CMakeFiles/sdl_test.dir/34_audio_recording.cpp.o  -o sdl_test -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_mixer 

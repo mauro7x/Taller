@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Tutorial/37_multiple_displays/37_multiple_displays.cpp
+SDL2/SDL.h
+-
+stdio.h
+-
+sstream
+-
+string
+-
+

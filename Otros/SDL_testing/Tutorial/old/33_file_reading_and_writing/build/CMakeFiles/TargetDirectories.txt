@@ -1,0 +1,3 @@
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Tutorial/33_file_reading_and_writing/build/CMakeFiles/rebuild_cache.dir
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Tutorial/33_file_reading_and_writing/build/CMakeFiles/sdl_test.dir
+/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Tutorial/33_file_reading_and_writing/build/CMakeFiles/edit_cache.dir
