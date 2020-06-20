@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Tutorial/old/26_motion"
+CMAKE_SOURCE_DIR = "/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Tutorial/old/21_sound_effects_and_music"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Tutorial/old/26_motion/build"
+CMAKE_BINARY_DIR = "/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Tutorial/old/21_sound_effects_and_music/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Tutorial/old/26_motion/build/CMakeFiles" "/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Tutorial/old/26_motion/build/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Tutorial/old/21_sound_effects_and_music/build/CMakeFiles" "/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Tutorial/old/21_sound_effects_and_music/build/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Tutorial/old/26_motion/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Tutorial/old/21_sound_effects_and_music/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ sdl_test/fast:
 	$(MAKE) -f CMakeFiles/sdl_test.dir/build.make CMakeFiles/sdl_test.dir/build
 .PHONY : sdl_test/fast
 
-26_motion.o: 26_motion.cpp.o
+21_sound_effects_and_music.o: 21_sound_effects_and_music.cpp.o
 
-.PHONY : 26_motion.o
+.PHONY : 21_sound_effects_and_music.o
 
 # target to build an object file
-26_motion.cpp.o:
-	$(MAKE) -f CMakeFiles/sdl_test.dir/build.make CMakeFiles/sdl_test.dir/26_motion.cpp.o
-.PHONY : 26_motion.cpp.o
+21_sound_effects_and_music.cpp.o:
+	$(MAKE) -f CMakeFiles/sdl_test.dir/build.make CMakeFiles/sdl_test.dir/21_sound_effects_and_music.cpp.o
+.PHONY : 21_sound_effects_and_music.cpp.o
 
-26_motion.i: 26_motion.cpp.i
+21_sound_effects_and_music.i: 21_sound_effects_and_music.cpp.i
 
-.PHONY : 26_motion.i
+.PHONY : 21_sound_effects_and_music.i
 
 # target to preprocess a source file
-26_motion.cpp.i:
-	$(MAKE) -f CMakeFiles/sdl_test.dir/build.make CMakeFiles/sdl_test.dir/26_motion.cpp.i
-.PHONY : 26_motion.cpp.i
+21_sound_effects_and_music.cpp.i:
+	$(MAKE) -f CMakeFiles/sdl_test.dir/build.make CMakeFiles/sdl_test.dir/21_sound_effects_and_music.cpp.i
+.PHONY : 21_sound_effects_and_music.cpp.i
 
-26_motion.s: 26_motion.cpp.s
+21_sound_effects_and_music.s: 21_sound_effects_and_music.cpp.s
 
-.PHONY : 26_motion.s
+.PHONY : 21_sound_effects_and_music.s
 
 # target to generate assembly for a file
-26_motion.cpp.s:
-	$(MAKE) -f CMakeFiles/sdl_test.dir/build.make CMakeFiles/sdl_test.dir/26_motion.cpp.s
-.PHONY : 26_motion.cpp.s
+21_sound_effects_and_music.cpp.s:
+	$(MAKE) -f CMakeFiles/sdl_test.dir/build.make CMakeFiles/sdl_test.dir/21_sound_effects_and_music.cpp.s
+.PHONY : 21_sound_effects_and_music.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... sdl_test"
 	@echo "... edit_cache"
-	@echo "... 26_motion.o"
-	@echo "... 26_motion.i"
-	@echo "... 26_motion.s"
+	@echo "... 21_sound_effects_and_music.o"
+	@echo "... 21_sound_effects_and_music.i"
+	@echo "... 21_sound_effects_and_music.s"
 .PHONY : help
 
 

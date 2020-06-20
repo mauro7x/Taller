@@ -1,4 +1,4 @@
-# Install script for directory: /home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Tutorial/old/26_motion
+# Install script for directory: /home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Tutorial/old/21_sound_effects_and_music
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Tutorial/old/26_motion/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/mp/Facultad/1C 2020/Taller/Otros/SDL_testing/Tutorial/old/21_sound_effects_and_music/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
