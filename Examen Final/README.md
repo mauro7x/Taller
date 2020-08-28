@@ -17,3 +17,4 @@
     * fopen (r, w, a, r+, w+, a+, b, etc...), fread, fwrite, fclose, fgetc, ftruncate, etc.
 * Sockets. Métodos para server y cliente. Establecer conexión básica.
     * socket, bind, listen, accept, connect, getaddrinfo, etc.
+* Funciones de C, de strings, de archivos, las de la onda snprintf, ftruncate, strcmp, etc.
