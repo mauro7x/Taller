@@ -1,7 +1,7 @@
 # Preparación examen final de Taller I
 
 - Finales **disponibles**: 115.
-- Finales **realizados**: 3.
+- Finales **realizados**: 4.
 
 ## Dudas
 *Sección donde se deben ir anotando las dudas sobre los ejercicios.*
@@ -20,3 +20,4 @@
 * Estudiar contenedores de la STL, como map.
 * Estudiar temas adicionales x las dudas (share pointers, etc).
 * Distintos tipos de locks.
+* GTK, Cairo, o Qt, algo para dibujar.
