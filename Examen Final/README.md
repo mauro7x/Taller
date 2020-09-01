@@ -1,7 +1,7 @@
 # Preparación examen final de Taller I
 
 - Finales **disponibles**: 115.
-- Finales **realizados**: 2.
+- Finales **realizados**: 3.
 
 ## Dudas
 *Sección donde se deben ir anotando las dudas sobre los ejercicios.*
@@ -18,3 +18,5 @@
     * socket, bind, listen, accept, connect, getaddrinfo, etc.
 * Funciones de C, de strings, de archivos, las de la onda snprintf, ftruncate, strcmp, etc.
 * Estudiar contenedores de la STL, como map.
+* Estudiar temas adicionales x las dudas (share pointers, etc).
+* Distintos tipos de locks.
