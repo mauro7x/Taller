@@ -101,16 +101,6 @@
 ...
 
 ---
-> Escriba una rutina que lea los elementos de un listbox, los revierta ("abcd" → "dcba") y los escriba nuevamente en el control.
-
-...
-
----
-> Escriba una rutina (para ambiente gráfico Windows o Linux) que dibuje una cruz diagonal ocupando toda la pantalla.
-
-...
-
----
 > Escriba una rutina gráfica para Windows o Linux que dibuje 3 círculos concéntricos centrados en la ventana.
 
 ...
