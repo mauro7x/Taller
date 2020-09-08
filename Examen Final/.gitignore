@@ -1,1 +1,18 @@
+# excluding files without extension
+*
+!/**/
+!*.*
+
+# particular exclusions
+*.o
+*.json
+
+# particular directories
 /Tests
+
+# qt5
+*.qmake.stash
+*.pro
+
+# vscode
+.vscode
