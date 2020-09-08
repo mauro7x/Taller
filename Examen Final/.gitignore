@@ -6,6 +6,7 @@
 # particular exclusions
 *.o
 *.json
+*.zip
 
 # particular directories
 /Tests
