@@ -1,8 +1,5 @@
 # Preparación examen final de Taller I
 
-## Dudas
-*Sección donde se deben ir anotando las dudas sobre los ejercicios.*
-
 ## Estudiar
 
 * (C++) std::list.
